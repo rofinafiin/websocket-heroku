@@ -1,4 +1,4 @@
-module chapter08
+module github.com/rofinafiin/websocket-heroku
 
 go 1.20
 

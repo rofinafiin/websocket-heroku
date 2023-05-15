@@ -1,7 +1,7 @@
 package url
 
 import (
-	"chapter08/controller"
+	"github.com/rofinafiin/websocket-heroku/controller"
 
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/websocket/v2"

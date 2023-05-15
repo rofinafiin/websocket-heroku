@@ -3,6 +3,7 @@ package main
 import (
 	"log"
 
+	"github.com/aiteung/musik"
 	"github.com/rofinafiin/websocket-heroku/module"
 	"github.com/rofinafiin/websocket-heroku/url"
 
@@ -14,5 +15,5 @@ func main() {
 
 	site := fiber.New()
 	url.Web(site)
-	log.Fatal(site.Listen(":3000"))
+	log.Fatal(site.Listen(musik.Dangdut()))
 }

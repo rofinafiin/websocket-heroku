@@ -11,6 +11,7 @@ import (
 
 func main() {
 	go module.RunHub()
+
 	site := fiber.New()
 	url.Web(site)
 	log.Fatal(site.Listen(":3000"))
